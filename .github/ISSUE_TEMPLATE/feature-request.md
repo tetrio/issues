@@ -2,7 +2,7 @@
 name: Feature request
 about: Suggest an idea that may improve TETR.IO
 title: ''
-labels: ''
+labels: improvement
 assignees: ''
 
 ---

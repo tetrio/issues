@@ -2,7 +2,7 @@
 name: Bug report
 about: Create a report of unintended behavior or problems
 title: ''
-labels: ''
+labels: bug
 assignees: ''
 
 ---
