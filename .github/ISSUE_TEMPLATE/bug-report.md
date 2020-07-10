@@ -7,6 +7,20 @@ assignees: ''
 
 ---
 
+### Checklist (issue will be disregarded & closed if incomplete!)
+<!-- ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ -->
+<!-- ＷＡＲＮＩＮＧ　ＷＡＲＮＩＮＧ　ＷＡＲＮＩＮＧ　ＷＡＲＮＩＮＧ -->
+<!-- IF THE BELOW CHECKLIST IS NOT COMPLETE YOUR ISSUE WILL BE CLOSED -->
+
+- [ ] I've **checked both [open and recently closed issues](https://github.com/tetrio/issues/issues?q=is%3Aissue)** to ensure this issue is not already reported.
+- [ ] I am using the **newest version** of TETR.IO.
+- [ ] I know **how to reproduce the issue**.
+- [ ] I am using a **supported browser** or the Desktop Client.
+- [ ] I am not using anything that **modifies game code** (e.g. TETR.IO+).
+- [ ] I am certain this is a **bug**, not a feature request.
+
+-----
+
 ### Describe the bug/issue
 A clear and concise description of what the bug is.
 
