@@ -15,6 +15,6 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         stale-issue-message: 'This issue has not seen any activity in 30 days. If the issue is still relevant, please comment on it or the issue will be automatically closed in 7 days. This way, the issue tracker can be kept clean. Thank you!'
         stale-issue-label: 'stale'
-        days-before-stale: 30
-        days-before-close: 7
+        days-before-stale: 90
+        days-before-close: 15
         exempt-issue-labels: 'priority, never-stale' 
