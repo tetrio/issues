@@ -11,6 +11,10 @@ assignees: ''
 <!-- ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ -->
 <!-- ＷＡＲＮＩＮＧ　ＷＡＲＮＩＮＧ　ＷＡＲＮＩＮＧ　ＷＡＲＮＩＮＧ -->
 <!-- IF THE BELOW CHECKLIST IS NOT COMPLETE YOUR ISSUE WILL BE CLOSED -->
+<!-- ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ -->
+<!-- Check these boxes by placing an X within the brackets, like so: [X] -->
+<!-- You can also check them later when your issue is posted, but don't forget! -->
+<!-- ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ -->
 
 - [ ] I've **checked both [open and recently closed issues](https://github.com/tetrio/issues/issues?q=is%3Aissue)** to ensure this issue is not already reported.
 - [ ] I am using the **newest version** of TETR.IO.
