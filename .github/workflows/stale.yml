@@ -17,4 +17,4 @@ jobs:
         stale-issue-label: 'stale'
         days-before-stale: 90
         days-before-close: 15
-        exempt-issue-labels: 'priority, never-stale' 
+        exempt-issue-labels: 'priority, never-stale, improvement' 
