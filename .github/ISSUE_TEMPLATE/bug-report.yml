@@ -12,6 +12,7 @@ body:
         - label: I am using the **newest version** of TETR.IO.
           required: true
         - label: I know **how to reproduce the issue**.
+          required: true
         - label: I am using a **supported browser** or the Desktop Client.
           required: true
         - label: I am not using anything that **modifies game code** (e.g. TETR.IO PLUS).
