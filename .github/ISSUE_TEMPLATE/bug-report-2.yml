@@ -23,7 +23,7 @@ body:
     attributes:
       label: Reproducing
       description: Steps to reproduce the behavior.
-      placeholder: >
+      placeholder: |
 1. Go to '...'
 2. Click on '...'
 3. Scroll down to '...'
