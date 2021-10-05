@@ -1,0 +1,15 @@
+name: Bug Report 2
+description: Create a report of unintended behavior or problems
+labels: [bug]
+body:
+  - type: checkboxes
+    attributes:
+      label: Checklist
+      description: Issue will be disregarded & closed if incomplete!
+      options:
+        - label: I\'ve **checked both [open and recently closed issues](https://github.com/tetrio/issues/issues?q=is%3Aissue)** to ensure this issue is not already reported.
+        - label: I am using the **newest version** of TETR.IO.
+        - label: I know **how to reproduce the issue**.
+        - label: I am using a **supported browser** or the Desktop Client.
+        - label: I am not using anything that **modifies game code** (e.g. TETR.IO PLUS).
+        - label: I am certain this is a **bug**, not a feature request.
