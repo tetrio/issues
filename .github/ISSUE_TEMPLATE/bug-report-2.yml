@@ -24,9 +24,9 @@ body:
       label: Reproducing
       description: Steps to reproduce the behavior.
       placeholder: |
-1. Go to '...'
-2. Click on '...'
-3. Scroll down to '...'
-4. See error
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
     validations:
       required: true
