@@ -16,8 +16,6 @@ body:
         - label: I am not using anything that **modifies game code** (e.g. TETR.IO PLUS).
           required: true
         - label: I am certain this is a **bug**, not a feature request.
-          required: true
-        - label: I know **how to reproduce the issue**.
   - type: textarea
     attributes:
       label: Describe the bug/issue
