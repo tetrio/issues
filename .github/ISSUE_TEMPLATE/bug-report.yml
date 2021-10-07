@@ -55,7 +55,7 @@ body:
       description: If applicable, add screenshots to help explain your problem.
   - type: textarea
     attributes:
-      label: Browser logs
+      label: Console logs
       description: Press F12 and go to the Console tab, then copy or screenshot the logs. This helps us quickly identify the cause of the bug.
   - type: textarea
     attributes:
