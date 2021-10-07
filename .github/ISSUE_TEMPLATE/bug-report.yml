@@ -1,0 +1,63 @@
+name: Bug Report
+description: Create a report of unintended behavior or problems
+labels: [bug]
+body:
+  - type: checkboxes
+    attributes:
+      label: Checklist
+      description: Issue will be disregarded & closed if incomplete!
+      options:
+        - label: I've **checked both [open and recently closed issues](https://github.com/tetrio/issues/issues?q=is%3Aissue)** to ensure this issue is not already reported.
+          required: true
+        - label: I am using the **newest version** of TETR.IO.
+          required: true
+        - label: I am using a **supported browser** or the Desktop Client.
+          required: true
+        - label: I am not using anything that **modifies game code** (e.g. TETR.IO PLUS).
+          required: true
+        - label: I am certain this is a **bug**, not a feature request.
+  - type: input
+    attributes:
+      label: OS and Version
+      placeholder: e.g. Windows 7
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Browser and version
+      placeholder: e.g. Chrome 94
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe the bug/issue
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Reproducing
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
+  - type: textarea
+    attributes:
+      label: Console logs
+      description: Press F12 and go to the Console tab, then copy or screenshot the logs. This helps us quickly identify the cause of the bug.
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
