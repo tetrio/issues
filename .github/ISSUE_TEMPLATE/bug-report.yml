@@ -16,6 +16,18 @@ body:
         - label: I am not using anything that **modifies game code** (e.g. TETR.IO PLUS).
           required: true
         - label: I am certain this is a **bug**, not a feature request.
+  - type: input
+    attributes:
+      label: OS and Version
+      placeholder: e.g. Windows 7
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Browser and version
+      placeholder: e.g. Chrome 94
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Describe the bug/issue
@@ -31,18 +43,6 @@ body:
         2. Click on '...'
         3. Scroll down to '...'
         4. See error
-  - type: input
-    attributes:
-      label: OS and Version
-      placeholder: e.g. Windows 7
-    validations:
-      required: true
-  - type: input
-    attributes:
-      label: Browser and version
-      placeholder: e.g. Chrome 94
-    validations:
-      required: true
   - type: textarea
     attributes:
       label: Expected behavior
@@ -56,7 +56,7 @@ body:
   - type: textarea
     attributes:
       label: Browser logs
-      description: Press F12 and go to the Console tab, then copy / screenshot any log output to help diagnose the issue.
+      description: Press F12 and go to the Console tab, then copy or screenshot the logs. This helps us quickly identify the cause of the bug.
   - type: textarea
     attributes:
       label: Additional context
