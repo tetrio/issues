@@ -31,6 +31,18 @@ body:
         2. Click on '...'
         3. Scroll down to '...'
         4. See error
+  - type: input
+    attributes:
+      label: OS and Version
+      placeholder: e.g. Windows 7
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Browser and version
+      placeholder: e.g. Chrome 94
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Expected behavior
@@ -41,19 +53,11 @@ body:
     attributes:
       label: Screenshots
       description: If applicable, add screenshots to help explain your problem.
-  - type: input
+  - type: textarea
     attributes:
-      label: OS and Version
-      placeholder: e.g. Windows 7
-    validations:
-      required: true
-  - type: input
-    attributes:
-      label: Browser and Version
-      placeholder: e.g. Chrome 94
-    validations:
-      required: true
+      label: Browser logs
+      description: Press F12 and go to the Console tab, then copy / screenshot any log output to help diagnose the issue.
   - type: textarea
     attributes:
       label: Additional context
-      description: Add any other context about the problem here. Browser logs are helpful (press F12, and go to the Console tab to view said console)
+      description: Add any other context about the problem here.
