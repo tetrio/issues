@@ -16,6 +16,7 @@ body:
         - label: I am not using anything that **modifies game code** (e.g. TETR.IO PLUS).
           required: true
         - label: I am certain this is a **bug**, not a feature request.
+          required: true
   - type: input
     attributes:
       label: OS and Version
